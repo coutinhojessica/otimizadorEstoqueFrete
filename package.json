@@ -1,0 +1,27 @@
+{
+  "name": "otimizadorestoquefrete",
+  "version": "1.0.0",
+  "description": "Este é um script em JavaScript desenvolvido para simular o backend de um sistema de e-commerce. O objetivo principal é validar a disponibilidade de produtos em estoque e calcular o valor final do frete com base na quantidade de itens válidos no carrinho.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coutinhojessica/otimizadorEstoqueFrete.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/coutinhojessica/otimizadorEstoqueFrete/issues"
+  },
+  "homepage": "https://github.com/coutinhojessica/otimizadorEstoqueFrete#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.0",
+    "globals": "^17.6.0",
+    "prettier": "^3.8.3"
+  }
+}
