@@ -29,7 +29,7 @@ const carrinhoDoCliente = {
   "Calça Jeans Slim": 3,
   "Saia Mid": 8,
   "Cardigã Tricô": 1,
-  "Meias": 1,
+  Meias: 1,
 };
 
 function processarCarrinho(carrinho, estoque) {
