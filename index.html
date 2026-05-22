@@ -12,42 +12,277 @@
     />
   </head>
   <body>
-    <h1>Otmizador de Estoque e Frete</h1>
-    <form action="#">
-      <div>
-        <div>
-          <div class="card" style="width: 18rem">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card’s content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+    <header>
+      <h1>Otmizador de Estoque e Frete</h1>
+      <p>Site criado para fins didáticos e demonstração de código.</p>
+    </header>
+    <main>
+      <form action="#">
+        <div class="container-cards">
+          <div class="group-cards">
+            <!-- item camisa -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSSQfnkd2cQ7WiI7MWCUKxQ4G9GgG2SUdD6HLYW5bbOYxfMSFFR3b4yVXGztjfbRsw8NX7FGpY4tPqPqycJs0zOKhVoFPSoUJCOtpMXoKNnf34p3h5_3a4-YjwHCdshc3AQQIItUuFepOM&usqp=CAc"
+                class="card-img-top"
+                alt="Camisa Polo"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <label for="camisa">Camisa Polo</label>
+                </h5>
+                <p class="card-text"><strong>Preço:</strong> R$ 89,9</p>
+                <section>
+                  <input
+                    type="number"
+                    name="qtdcamisa"
+                    value="qtdcamisa"
+                    placeholder="Informe a quantidade desejada."
+                  />
+                </section>
+                <section>
+                  <input type="checkbox" name="camisa" value="camisa" />
+                </section>
+              </div>
+            </div>
+
+            <!-- Item calça -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEAPqoWVkmNxBVWxYey_cnVk6pAYRitlBmYw&s"
+                class="card-img-top"
+                alt="Calça Jeans Slim"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <label for="calca">Calça Jeans Slim</label>
+                </h5>
+                <p class="card-text"><strong>Preço:</strong> R$ 159,0</p>
+                <section>
+                  <input
+                    type="number"
+                    name="qtdCalca"
+                    value="qtdCalca"
+                    placeholder="Informe a quantidade desejada."
+                  />
+                </section>
+                <section>
+                  <input type="checkbox" name="calca" value="calca" />
+                </section>
+              </div>
+            </div>
+
+            <!-- Item vestido -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR18_Z4Ux8vUnbZWDcTowEzsEnunimc6Ummqw&s"
+                class="card-img-top"
+                alt="Vestido floral"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <label for="vestido">Vestido Floral</label>
+                </h5>
+                <p class="card-text"><strong>Preço:</strong> R$ 120,0</p>
+                <section>
+                  <input
+                    type="number"
+                    name="qtdVestido"
+                    value="qtdVestido"
+                    placeholder="Informe a quantidade desejada."
+                  />
+                </section>
+                <section>
+                  <input type="checkbox" name="vestido" value="vestido" />
+                </section>
+              </div>
+            </div>
+            <!-- Item jaqueta -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://images2.marisa.com.br/medias/sys_master/images/images/hff/h6d/16790985932830/Jaqueta-Feminina-Jeans-Barra-Desfiada-Marisa-10057728223-C1.jpg"
+                class="card-img-top"
+                alt="Jaqueta"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <label for="jaqueta">Jaqueta</label>
+                </h5>
+                <p class="card-text"><strong>Preço:</strong> R$ 350,0</p>
+                <section>
+                  <input
+                    type="number"
+                    name="qtdJaqueta"
+                    value="qtdJaqueta"
+                    placeholder="Informe a quantidade desejada."
+                  />
+                </section>
+                <section>
+                  <input type="checkbox" name="jaqueta" value="jaqueta" />
+                </section>
+              </div>
+            </div>
+            <!-- Item bermunda Sarja -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSsyqeW6r4cE80ZqeUylFfnw8WZfgZTsJtg&s"
+                class="card-img-top"
+                alt="Bermuda Sarja"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <label for="bermuda">Bermuda Sarja</label>
+                </h5>
+                <p class="card-text"><strong>Preço:</strong> R$ 75,5</p>
+                <section>
+                  <input
+                    type="number"
+                    name="qtdBermuda"
+                    value="qtdBermuda"
+                    placeholder="Informe a quantidade desejada."
+                  />
+                </section>
+                <section>
+                  <input type="checkbox" name="bermuda" value="bermuda" />
+                </section>
+              </div>
+            </div>
+            <!-- Item saia mid -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://cdn.awsli.com.br/600x700/367/367744/produto/273640020/saia-estonada-chumbo-1-c5esqjleir.jpg"
+                class="card-img-top"
+                alt="Saia Mid"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <label for="saia">Saia Mid</label>
+                </h5>
+                <p class="card-text"><strong>Preço:</strong> R$ 95,0</p>
+                <section>
+                  <input
+                    type="number"
+                    name="qtdSaia"
+                    value="qtdSaia"
+                    placeholder="Informe a quantidade desejada."
+                  />
+                </section>
+                <section>
+                  <input type="checkbox" name="saia" value="saia" />
+                </section>
+              </div>
+            </div>
+            <!-- Item moletom canguru -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxf7RXk_qPAdsdGheOCTwkfLlvlRBu7GQAsA&s"
+                class="card-img-top"
+                alt="Moletom Canguru"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <label for="moletom">Moletom Canguru</label>
+                </h5>
+                <p class="card-text"><strong>Preço:</strong> R$ 180,0</p>
+                <section>
+                  <input
+                    type="number"
+                    name="qtdMoletom"
+                    value="qtdMoletom"
+                    placeholder="Informe a quantidade desejada."
+                  />
+                </section>
+                <section>
+                  <input type="checkbox" name="moletom" value="moletom" />
+                </section>
+              </div>
+            </div>
+
+            <!-- Item blusa de seda -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNx31FoDiE0ydPDTH2YXsdEGKQ0ENjb4L95g&s"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <label for="blusa">Blusa de Seda</label>
+                </h5>
+                <p class="card-text"><strong>Preço:</strong> R$ 210,0</p>
+                <section>
+                  <input
+                    type="number"
+                    name="qtdBlusa"
+                    value="qtdBlusa"
+                    placeholder="Informe a quantidade desejada."
+                  />
+                </section>
+                <section>
+                  <input type="checkbox" name="blusa" value="blusa" />
+                </section>
+              </div>
+            </div>
+
+            <!-- Item regata -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9s6shabCMJwQFhu9Rdsv0vnU56xeagRdGeQ&s"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <label for="regata">Regata</label>
+                </h5>
+                <p class="card-text"><strong>Preço:</strong> R$ 39,9</p>
+                <section>
+                  <input
+                    type="number"
+                    name="qtdRegata"
+                    value="qtdRegata"
+                    placeholder="Informe a quantidade desejada."
+                  />
+                </section>
+                <section>
+                  <input type="checkbox" name="regata" value="regata" />
+                </section>
+              </div>
+            </div>
+
+            <!-- Item cardigã tricô -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbgH3MQGhZ8xxX_-bDmUmAEZ6BLWlwQtJxog&s"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <label for="cardiga">Cardigã Tricô</label>
+                </h5>
+                <p class="card-text"><strong>Preço:</strong> R$ 130,0</p>
+                <section>
+                  <input
+                    type="number"
+                    name="qtdRegata"
+                    value="qtdRegata"
+                    placeholder="Informe a quantidade desejada."
+                  />
+                </section>
+                <section>
+                  <input type="checkbox" name="regata" value="regata" />
+                </section>
+              </div>
             </div>
           </div>
-          <label for="camisa">Camisa Polo</label>
-          <input type="checkbox" name="camisa" value="camisa" />
-          <input
-            type="number"
-            name="qtdcamisa"
-            value="qtdcamisa"
-            placeholder="Informe a quantidade desejada."
-          />
+          <button type="submit">Finalizar Comprar</button>
         </div>
-        <div>
-          <label for="calca">Calça Jeans Slim</label>
-          <input type="checkbox" name="calca" value="calca" />
-          <input
-            type="number"
-            name="qtdcalca"
-            value="qtdcalca"
-            placeholder="Informe a quantidade desejada."
-          />
-        </div>
-      </div>
-    </form>
+      </form>
+    </main>
+    <footer>
+      <p>Este é um site fictício criado apenas para fins didáticos.</p>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
